@@ -2,10 +2,10 @@
 ## Introduction 
 This an MVP python/pandas solution with data analytics. The goal is to evaluate specific US Treasury rates using a 50 day moving average for 5 and 30 year rates. I once read an article that stipulated when the 5 year 50 day moving average exceeds the 30 year day moving average, then this could be a predictor of a future recession.    
   
-The solution uses python and Jupyter notebooks. I am using cufflinks to plot graphs to make the graphs are interactive.  
+The solution uses python and Jupyter notebooks. I am using cufflinks to plot graphs to make the graphs interactive.  
 
 ## Python Environment  
-If you are using [conda](https://docs.anaconda.com/miniconda/install/) to create a python environment, then you may need to run **pip** install for plotly and cufflinks. At this writing **conda** does not support these libs.    
+If you are using [conda](https://docs.anaconda.com/miniconda/install/) to create a python environment, then you may need to run **pip** install for plotly and cufflinks. At this writing **conda install** does not support these libs.    
 If using conda,
 ```
 # Create python environment with conda 
