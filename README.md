@@ -12,7 +12,8 @@ If using conda,
 conda create --name condapy1 python=3.12
 conda activate condapy1
 ```
-Install python libs
+Install python libs  
+
 **NOTE:** I have had issues with **plotly** and **cufflinks** when installing in more than one **conda** environment. Errors are thrown when using **iplot**. These errors are elusive and one big rabbit hole.     
 ```
 pip install pandas
